@@ -15,7 +15,7 @@ DEBUG = True
 
 # csrf trusted origin added
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://volunteer-coordination-platform.onrender.com', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://simple-authentications-backend.onrender.com', 'https://*.127.0.0.1']
 
 
 
@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'Simple_authentications_server.wsgi.application'
 
 #cors origin added
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = ['https://volunteer-coordination-platform.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://simple-authentications-backend.onrender.com']
 
 
 # Database
